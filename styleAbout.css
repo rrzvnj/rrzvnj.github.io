@@ -1,0 +1,169 @@
+
+@font-face {
+    font-family: 'Crimson_Text'; /*a name to be used later*/
+    src: url('./assets/fonts/Crimson_Text/CrimsonText-Regular.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'EB_Garamond'; /*a name to be used later*/
+    src: url('./assets/fonts/EB_Garamond/EBGaramond-VariableFont_wght.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Gilda_Display'; /*a name to be used later*/
+    src: url('./assets/fonts/Gilda_Display/GildaDisplay-Regular.ttf'); /*URL to font*/
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilda_Display';
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)), url(./assets/imgs/20210919_112519.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.navbar{
+    display: flex;
+    padding: 40px 0 0 70%;
+    justify-content: space-between;
+    align-items:  right;
+ }
+
+.navbar ul li{
+    list-style: none;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 1rem;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 2px;
+    width: 0;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.2s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+
+.navbar{
+    display: flex;
+    padding: 40px 0 0 75%;
+    justify-content: space-between;
+    align-items:  right;
+ }
+
+.navbar ul li{
+    list-style: none;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 1rem;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 2px;
+    width: 0;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.2s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.content-section{
+    float: left;
+    width: 40%;
+}
+
+.image-section{
+    float: right;
+    width: 60%;
+}
+
+.image-section img{
+    width: 100%;
+    display: block;
+    margin: auto;
+    height: auto;
+} 
+
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.content-section .content{
+    margin-top: 20px;
+    color: black;
+}
+
+.content-section .content p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+    line-height: 1.5;
+}
+
+.content-section .social{
+    margin: 40px, 40px;
+}
+
+.content-section .social i{
+    color: black;
+    font-size: 50px;
+    padding: 20px 40px;
+}
