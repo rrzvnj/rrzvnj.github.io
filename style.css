@@ -28,57 +28,16 @@ html, body {
 .banner{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.0)), url(./assets/background/home_background.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.24),rgba(0,0,0,0.1)), url(./assets/background/home_background.jpg);
     background-size: cover;
     background-position: center;
 }
 
- .navbar{
-    display: flex;
-    padding: 40px 0 0 70%;
-    justify-content: space-between;
-    align-items:  right;
- }
-
-.navbar ul li{
-    list-style: none;
-    margin: 0 20px;
-    position: relative;
-}
-
-.navbar ul{
-    display: flex;
-}
-
-
-.navbar ul li a{
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-    padding: 1rem;
-}
-
-.navbar ul li::after{
-    content: '';
-    height: 2px;
-    width: 0;
-    background: white;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    transition: 0.2s;
-}
-
-.navbar ul li:hover::after{
-    width: 100%;
-}
-
-
 .navbar{
     display: flex;
-    padding: 40px 0 0 75%;
-    justify-content: space-between;
-    align-items:  right;
+    padding: 50px;
+    justify-content: flex-end;
+    align-items:  left;
  }
 
 .navbar ul li{
@@ -90,7 +49,6 @@ html, body {
 .navbar ul{
     display: flex;
 }
-
 
 .navbar ul li a{
     text-decoration: none;
@@ -105,13 +63,14 @@ html, body {
     width: 0;
     background: white;
     position: absolute;
-    left: 0;
+    left: 15px;
     bottom: -10px;
     transition: 0.2s;
 }
 
 .navbar ul li:hover::after{
-    width: 100%;
+    position: center;
+    width: 70%;
 }
 
 
