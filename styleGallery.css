@@ -24,9 +24,9 @@
 
 .navbar_dark{
     display: flex;
-    padding: 40px 0 0 75%;
-    justify-content: space-between;
-    align-items:  right;
+    padding: 50px;
+    justify-content: flex-end;
+    align-items:  left;
  }
 
 .navbar_dark ul li{

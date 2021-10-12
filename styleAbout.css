@@ -30,54 +30,14 @@
     background-position: center;
 }
 
-
 .navbar{
+
     display: flex;
-    padding: 40px 0 0 70%;
-    justify-content: space-between;
-    align-items:  right;
- }
+    padding: 50px;
+    justify-content: flex-end;
+    align-items:  left;
 
-.navbar ul li{
-    list-style: none;
-    margin: 0 20px;
-    position: relative;
 }
-
-.navbar ul{
-    display: flex;
-}
-
-
-.navbar ul li a{
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-    padding: 1rem;
-}
-
-.navbar ul li::after{
-    content: '';
-    height: 2px;
-    width: 0;
-    background: white;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    transition: 0.2s;
-}
-
-.navbar ul li:hover::after{
-    width: 100%;
-}
-
-
-.navbar{
-    display: flex;
-    padding: 40px 0 0 75%;
-    justify-content: space-between;
-    align-items:  right;
- }
 
 .navbar ul li{
     list-style: none;
